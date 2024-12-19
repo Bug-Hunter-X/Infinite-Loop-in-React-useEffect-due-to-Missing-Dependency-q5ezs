@@ -1,0 +1,1 @@
+This example demonstrates a common error in React's `useEffect` hook:  omitting dependencies in the dependency array.  The `setInterval` function is called repeatedly, causing `setCount` to update without stopping, leading to an infinite render loop. The solution shows the correct implementation with the `count` state variable included in the dependency array.
